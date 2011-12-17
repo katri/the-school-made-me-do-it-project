@@ -8,5 +8,12 @@
         <field:input field="kood" id="c_ee_itcollege_i377_team29_entities_Riigi_admin_yksuse_liik_kood" required="true" z="J8YKlr+F20hlWljzaaRp9O4Kn3I="/>
         <field:input field="nimetus" id="c_ee_itcollege_i377_team29_entities_Riigi_admin_yksuse_liik_nimetus" required="true" z="yh5fN+TFiTnbCezKnv/gaPjamLM="/>
         <field:simple field="riigi_admin_yksus" id="c_ee_itcollege_i377_team29_entities_Riigi_admin_yksuse_liik_riigi_admin_yksus" messageCode="entity_reference_not_managed" messageCodeAttribute="Riigi_admin_yksus" z="OXAnCKIKwyU+vxN5QC3arh0enq8="/>
+        <field:textarea field="kommentaar" id="c_ee_itcollege_i377_team29_entities_Riigi_admin_yksuse_liik_kommentaar" z="OhNHu7pxXnntjFwRFpgvu47qfGc="/>
+        <field:textarea field="avaja" id="c_ee_itcollege_i377_team29_entities_Riigi_admin_yksuse_liik_avaja" required="true" z="8Q3LdMdeFTQKBEo9IUY8Of0qOZM="/>
+        <field:datetime dateTimePattern="${riigi_admin_yksuse_liik_avatud_date_format}" field="avatud" id="c_ee_itcollege_i377_team29_entities_Riigi_admin_yksuse_liik_avatud" required="true" z="pBNb/c//n8DVSYVIwBo6n2Qhvmg="/>
+        <field:textarea field="sulgeja" id="c_ee_itcollege_i377_team29_entities_Riigi_admin_yksuse_liik_sulgeja" z="oOZSkNAhxxL86DOG3+ddUm+azHM="/>
+        <field:datetime dateTimePattern="${riigi_admin_yksuse_liik_suletud_date_format}" field="suletud" id="c_ee_itcollege_i377_team29_entities_Riigi_admin_yksuse_liik_suletud" required="true" z="uuxBh077aclCQ+oiY9zhG5bD84c="/>
+        <field:textarea field="muutja" id="c_ee_itcollege_i377_team29_entities_Riigi_admin_yksuse_liik_muutja" required="true" z="V/NTwled/+mPrcnzkxUuXGh1Lvc="/>
+        <field:datetime dateTimePattern="${riigi_admin_yksuse_liik_muudetud_date_format}" field="muudetud" id="c_ee_itcollege_i377_team29_entities_Riigi_admin_yksuse_liik_muudetud" required="true" z="okvLGbzsWL22J41tTiFwaFVvv/0="/>
     </form:update>
 </div>

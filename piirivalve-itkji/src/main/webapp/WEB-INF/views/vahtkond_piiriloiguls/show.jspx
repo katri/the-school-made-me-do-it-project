@@ -7,5 +7,12 @@
         <field:display date="true" dateTimePattern="${vahtkond_piiriloigul_kuni_date_format}" field="kuni" id="s_ee_itcollege_i377_team29_entities_Vahtkond_piiriloigul_kuni" object="${vahtkond_piiriloigul}" z="81SItNDTbSU2LsTMK1QdTHXwkMc="/>
         <field:display field="piiriloik" id="s_ee_itcollege_i377_team29_entities_Vahtkond_piiriloigul_piiriloik" object="${vahtkond_piiriloigul}" z="08EyZuwlUJ4NDpxbRJtgc+i2EqI="/>
         <field:display field="vahtkond" id="s_ee_itcollege_i377_team29_entities_Vahtkond_piiriloigul_vahtkond" object="${vahtkond_piiriloigul}" z="oSiTuWwCusuOf+8vPpAHkXp3h08="/>
+        <field:display field="kommentaar" id="s_ee_itcollege_i377_team29_entities_Vahtkond_piiriloigul_kommentaar" object="${vahtkond_piiriloigul}" z="6WVDvyRtB2cI1QjmukCu7iPXAOA="/>
+        <field:display field="avaja" id="s_ee_itcollege_i377_team29_entities_Vahtkond_piiriloigul_avaja" object="${vahtkond_piiriloigul}" z="3EGhBBTZ75Sa4JDHnPAfJ43kIFM="/>
+        <field:display date="true" dateTimePattern="${vahtkond_piiriloigul_avatud_date_format}" field="avatud" id="s_ee_itcollege_i377_team29_entities_Vahtkond_piiriloigul_avatud" object="${vahtkond_piiriloigul}" z="QUbscULbIPupNFEvC38Y2I4s72g="/>
+        <field:display field="sulgeja" id="s_ee_itcollege_i377_team29_entities_Vahtkond_piiriloigul_sulgeja" object="${vahtkond_piiriloigul}" z="qjSBveCffo5Bc60nf3IqC68qeu8="/>
+        <field:display date="true" dateTimePattern="${vahtkond_piiriloigul_suletud_date_format}" field="suletud" id="s_ee_itcollege_i377_team29_entities_Vahtkond_piiriloigul_suletud" object="${vahtkond_piiriloigul}" z="OpvWHnLal1u+Af8xStyCDoqL7zE="/>
+        <field:display field="muutja" id="s_ee_itcollege_i377_team29_entities_Vahtkond_piiriloigul_muutja" object="${vahtkond_piiriloigul}" z="1QbZxGRJfJDZ7i1NpJjYHF5FmbI="/>
+        <field:display date="true" dateTimePattern="${vahtkond_piiriloigul_muudetud_date_format}" field="muudetud" id="s_ee_itcollege_i377_team29_entities_Vahtkond_piiriloigul_muudetud" object="${vahtkond_piiriloigul}" z="o8XCwgw3Dp6ZDmhZGNRFq99s0bI="/>
     </page:show>
 </div>

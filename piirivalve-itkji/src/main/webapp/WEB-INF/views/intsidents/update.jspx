@@ -4,15 +4,22 @@
     <jsp:output omit-xml-declaration="yes"/>
     <form:update id="fu_ee_itcollege_i377_team29_entities_Intsident" idField="intsident_ID" modelAttribute="intsident" path="/intsidents" versionField="Version" z="4aeiuA7aKur34Yl8gktJcXm0HU4=">
         <field:input field="kood" id="c_ee_itcollege_i377_team29_entities_Intsident_kood" max="20" min="0" required="true" z="xiZbvKsJ3qPCZX6BwduRhgvuZoo="/>
-        <field:textarea field="nimetus" id="c_ee_itcollege_i377_team29_entities_Intsident_nimetus" z="PEjVYN+xekPjX7gOtQj45INj0ZU="/>
-        <field:datetime dateTimePattern="${intsident_toimumise_algus_date_format}" field="toimumise_algus" id="c_ee_itcollege_i377_team29_entities_Intsident_toimumise_algus" z="ILZkDyFN7DPO3w9GMPiaEbHTMeo="/>
-        <field:datetime dateTimePattern="${intsident_toimumise_lopp_date_format}" field="toimumise_lopp" id="c_ee_itcollege_i377_team29_entities_Intsident_toimumise_lopp" z="ep7qW36xtqixO1N7v8qyWYvsCLI="/>
-        <field:textarea field="kirjeldus" id="c_ee_itcollege_i377_team29_entities_Intsident_kirjeldus" z="rDfS5qSsEByDXh7tJiBOgoyqjUk="/>
+        <field:textarea field="nimetus" id="c_ee_itcollege_i377_team29_entities_Intsident_nimetus" required="true" z="NV3vdXJkfOBSUwi5oYMhjj6xo0c="/>
+        <field:datetime dateTimePattern="${intsident_toimumise_algus_date_format}" field="toimumise_algus" id="c_ee_itcollege_i377_team29_entities_Intsident_toimumise_algus" required="true" z="n4xSKYQZPUqL80FOSCRmSMFbxUw="/>
+        <field:datetime dateTimePattern="${intsident_toimumise_lopp_date_format}" field="toimumise_lopp" id="c_ee_itcollege_i377_team29_entities_Intsident_toimumise_lopp" required="true" z="hOIv1fPa1ipx0I+ad81JVqvwoGE="/>
+        <field:textarea field="kirjeldus" id="c_ee_itcollege_i377_team29_entities_Intsident_kirjeldus" required="true" z="vYxhPeoSHP+cpinf/gns+2yjoqQ="/>
         <field:input field="GPS_longituud" id="c_ee_itcollege_i377_team29_entities_Intsident_GPS_longituud" validationMessageCode="field_invalid_number" z="R27q8dkFfgL/gDtn0xMGQ3Re9b4="/>
         <field:input field="GPS_latituud" id="c_ee_itcollege_i377_team29_entities_Intsident_GPS_latituud" validationMessageCode="field_invalid_number" z="wppp9p1YSDZ+Y1dg/CaR89xjoFc="/>
-        <field:select field="piiriloik" id="c_ee_itcollege_i377_team29_entities_Intsident_piiriloik" itemValue="piiriloik_ID" items="${piiriloiks}" path="/piiriloiks" z="WGDYJm4dEPKYKxk6z2/eSvSDhgY="/>
-        <field:select field="intsidendi_liik" id="c_ee_itcollege_i377_team29_entities_Intsident_intsidendi_liik" itemValue="intsidendi_liik_ID" items="${intsidendi_liiks}" path="/intsidendi_liiks" required="true" z="GCnxKUhQSdg/lM4BJ61O979avIc="/>
+        <field:select field="piiriloik" id="c_ee_itcollege_i377_team29_entities_Intsident_piiriloik" itemValue="piiriloik_ID" itemLabel="nimetus" items="${piiriloiks}" path="/piiriloiks" z="user-managed"/>
+        <field:select field="intsidendi_liik" id="c_ee_itcollege_i377_team29_entities_Intsident_intsidendi_liik" itemValue="intsidendi_liik_ID" itemLabel="nimetus" items="${intsidendi_liiks}" path="/intsidendi_liiks" required="true" z="user-managed"/>
         <field:simple field="objekt_intsidendis" id="c_ee_itcollege_i377_team29_entities_Intsident_objekt_intsidendis" messageCode="entity_reference_not_managed" messageCodeAttribute="Objekt_intsidendis" z="X0R+HXXYI/X9jvTMzyDGuTZ0+kc="/>
         <field:simple field="isik_intsidendis" id="c_ee_itcollege_i377_team29_entities_Intsident_isik_intsidendis" messageCode="entity_reference_not_managed" messageCodeAttribute="Isik_intsidendis" z="8Nd80SRpbSr+DnJZwUuC7FIqZOY="/>
+        <field:textarea field="kommentaar" id="c_ee_itcollege_i377_team29_entities_Intsident_kommentaar" z="NK0NCCfdU3HvM5Pw6RygTnuJiSE="/>
+        <field:textarea field="avaja" id="c_ee_itcollege_i377_team29_entities_Intsident_avaja" required="true" z="Y9wR9sGtgvT4wLptkyWytjnRjU8="/>
+        <field:datetime dateTimePattern="${intsident_avatud_date_format}" field="avatud" id="c_ee_itcollege_i377_team29_entities_Intsident_avatud" required="true" z="K+vTpsFGaDnwUJ0PhdK7J9+r3lQ="/>
+        <field:textarea field="sulgeja" id="c_ee_itcollege_i377_team29_entities_Intsident_sulgeja" z="kiufsHrFSUQPqutmoW1+oqxjJn0="/>
+        <field:datetime dateTimePattern="${intsident_suletud_date_format}" field="suletud" id="c_ee_itcollege_i377_team29_entities_Intsident_suletud" required="true" z="Aw8i5Qd80olT9DxyM+IriWjPS5I="/>
+        <field:textarea field="muutja" id="c_ee_itcollege_i377_team29_entities_Intsident_muutja" required="true" z="78ImOkN8GMowwCo2S2zGwZJ+KE8="/>
+        <field:datetime dateTimePattern="${intsident_muudetud_date_format}" field="muudetud" id="c_ee_itcollege_i377_team29_entities_Intsident_muudetud" required="true" z="vUOO/WpfOylb9ihOPMxH9LLP1+M="/>
     </form:update>
 </div>

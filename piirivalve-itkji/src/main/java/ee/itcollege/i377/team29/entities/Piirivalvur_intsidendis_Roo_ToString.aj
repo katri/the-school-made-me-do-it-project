@@ -25,7 +25,8 @@ privileged aspect Piirivalvur_intsidendis_Roo_ToString {
         sb.append("Serialversionuid: ").append(getSerialversionuid()).append(", ");
         sb.append("Suletud: ").append(getSuletud()).append(", ");
         sb.append("Sulgeja: ").append(getSulgeja()).append(", ");
-        sb.append("Vahtkond_intsidendis: ").append(getVahtkond_intsidendis());
+        sb.append("Vahtkond_intsidendis: ").append(getVahtkond_intsidendis()).append(", ");
+        sb.append("Version: ").append(getVersion());
         return sb.toString();
     }
     

@@ -33,3 +33,4 @@ web mvc all --package ~.web
 web mvc controller --class ~.web.IntsidentCreate
 // Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2011-12-03 23:02:30
 // Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2011-12-04 02:59:03
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2011-12-17 21:43:54

@@ -10,5 +10,12 @@
         <field:input field="piiririkkuja_ID" id="c_ee_itcollege_i377_team29_entities_Isik_intsidendis_piiririkkuja_ID" z="RI7H+ATkk3V1TX5fPXRLubeYwJ8="/>
         <field:select field="intsident" id="c_ee_itcollege_i377_team29_entities_Isik_intsidendis_intsident" itemValue="intsident_ID" items="${intsidents}" path="/intsidents" z="1HTD6fsgMx+Q2t/ctHfcOqbDc0I="/>
         <field:select field="piiririkkuja" id="c_ee_itcollege_i377_team29_entities_Isik_intsidendis_piiririkkuja" itemValue="piiririkkuja_ID" items="${piiririkkujas}" path="/piiririkkujas" z="TvQJBDyXL7z6YIBz3i/ibwABge0="/>
+        <field:textarea field="kommentaar" id="c_ee_itcollege_i377_team29_entities_Isik_intsidendis_kommentaar" z="5fmnuJZ7oOBDdpXFJ8Ppj3TzKIc="/>
+        <field:textarea field="avaja" id="c_ee_itcollege_i377_team29_entities_Isik_intsidendis_avaja" required="true" z="b5HxSyugZWlpW1ezicV4UAgnWkY="/>
+        <field:datetime dateTimePattern="${isik_intsidendis_avatud_date_format}" field="avatud" id="c_ee_itcollege_i377_team29_entities_Isik_intsidendis_avatud" required="true" z="QSxwVbTO24sWnMXwudPgYgTPy2c="/>
+        <field:textarea field="sulgeja" id="c_ee_itcollege_i377_team29_entities_Isik_intsidendis_sulgeja" z="wFoEqTgCC7nja20AEEOrqIsBSwQ="/>
+        <field:datetime dateTimePattern="${isik_intsidendis_suletud_date_format}" field="suletud" id="c_ee_itcollege_i377_team29_entities_Isik_intsidendis_suletud" required="true" z="cwcu/OlCkTfxEo+9AXlHealk0ow="/>
+        <field:textarea field="muutja" id="c_ee_itcollege_i377_team29_entities_Isik_intsidendis_muutja" required="true" z="YeofB/LO6ACucXszJtZUC5LynUg="/>
+        <field:datetime dateTimePattern="${isik_intsidendis_muudetud_date_format}" field="muudetud" id="c_ee_itcollege_i377_team29_entities_Isik_intsidendis_muudetud" required="true" z="Et9wCZnbrD/y0DTDf+lvFucCxW8="/>
     </form:update>
 </div>

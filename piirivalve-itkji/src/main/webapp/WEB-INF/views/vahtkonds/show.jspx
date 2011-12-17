@@ -9,5 +9,12 @@
         <field:display field="nimetus" id="s_ee_itcollege_i377_team29_entities_Vahtkond_nimetus" object="${vahtkond}" z="kjFnC+7unfM2B5DTw2EQjeGkMlw="/>
         <field:display field="vaeosa" id="s_ee_itcollege_i377_team29_entities_Vahtkond_vaeosa" object="${vahtkond}" z="NDHawV8qRc5acjKiXde6qs+ocVQ="/>
         <field:display field="piiripunkt" id="s_ee_itcollege_i377_team29_entities_Vahtkond_piiripunkt" object="${vahtkond}" z="7xPBbtTGkjC30caaHhzR8NMnGgc="/>
+        <field:display field="kommentaar" id="s_ee_itcollege_i377_team29_entities_Vahtkond_kommentaar" object="${vahtkond}" z="diHX9keuGhOoEH92zJf7zF55BpM="/>
+        <field:display field="avaja" id="s_ee_itcollege_i377_team29_entities_Vahtkond_avaja" object="${vahtkond}" z="zMmcrJbDci8KbBuj++OHtx+Zq/o="/>
+        <field:display date="true" dateTimePattern="${vahtkond_avatud_date_format}" field="avatud" id="s_ee_itcollege_i377_team29_entities_Vahtkond_avatud" object="${vahtkond}" z="rbffl4w6NlrfzqatRAmcyj4Z8t0="/>
+        <field:display field="sulgeja" id="s_ee_itcollege_i377_team29_entities_Vahtkond_sulgeja" object="${vahtkond}" z="8H3Mdl6omV8fwZLPcoMYkoQGnB4="/>
+        <field:display date="true" dateTimePattern="${vahtkond_suletud_date_format}" field="suletud" id="s_ee_itcollege_i377_team29_entities_Vahtkond_suletud" object="${vahtkond}" z="SuSZacVGhEJZ/lpNvmMRD2GwIxc="/>
+        <field:display field="muutja" id="s_ee_itcollege_i377_team29_entities_Vahtkond_muutja" object="${vahtkond}" z="bkkf+XeL36H7gAUtIJRymq+mnS8="/>
+        <field:display date="true" dateTimePattern="${vahtkond_muudetud_date_format}" field="muudetud" id="s_ee_itcollege_i377_team29_entities_Vahtkond_muudetud" object="${vahtkond}" z="PlgK4JB0wm6x1vo6Jb6Jao82jUE="/>
     </page:show>
 </div>

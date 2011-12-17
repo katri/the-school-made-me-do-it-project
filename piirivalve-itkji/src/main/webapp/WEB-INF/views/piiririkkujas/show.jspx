@@ -9,5 +9,12 @@
         <field:display field="sugu" id="s_ee_itcollege_i377_team29_entities_Piiririkkuja_sugu" object="${piiririkkuja}" z="qkvPvqfnS4g9i5Pj2bUfTiwxU20="/>
         <field:display date="true" dateTimePattern="${piiririkkuja_synniaeg_date_format}" field="synniaeg" id="s_ee_itcollege_i377_team29_entities_Piiririkkuja_synniaeg" object="${piiririkkuja}" z="526GvrFlHKWD/wWEA/KbC/XtliY="/>
         <field:display field="objekt" id="s_ee_itcollege_i377_team29_entities_Piiririkkuja_objekt" object="${piiririkkuja}" z="WA2gXSHFdqY/hh9yeO9WNbhqduc="/>
+        <field:display field="kommentaar" id="s_ee_itcollege_i377_team29_entities_Piiririkkuja_kommentaar" object="${piiririkkuja}" z="MaRjoasSSDeG4luMIWZ+4SHH/f4="/>
+        <field:display field="avaja" id="s_ee_itcollege_i377_team29_entities_Piiririkkuja_avaja" object="${piiririkkuja}" z="DyAD5IUw5gqcNWk5BFSWtE+f/fw="/>
+        <field:display date="true" dateTimePattern="${piiririkkuja_avatud_date_format}" field="avatud" id="s_ee_itcollege_i377_team29_entities_Piiririkkuja_avatud" object="${piiririkkuja}" z="950c6T+BtdY7PO7DuCU7u/kCHi0="/>
+        <field:display field="sulgeja" id="s_ee_itcollege_i377_team29_entities_Piiririkkuja_sulgeja" object="${piiririkkuja}" z="BibkNha2ocAj6Vi6xb6iav50kzM="/>
+        <field:display date="true" dateTimePattern="${piiririkkuja_suletud_date_format}" field="suletud" id="s_ee_itcollege_i377_team29_entities_Piiririkkuja_suletud" object="${piiririkkuja}" z="i1aR+B6Xt1j3k31XU7AuiTPaDX4="/>
+        <field:display field="muutja" id="s_ee_itcollege_i377_team29_entities_Piiririkkuja_muutja" object="${piiririkkuja}" z="sVz61gPlDlzwSb9KC+N7o2RA00Q="/>
+        <field:display date="true" dateTimePattern="${piiririkkuja_muudetud_date_format}" field="muudetud" id="s_ee_itcollege_i377_team29_entities_Piiririkkuja_muudetud" object="${piiririkkuja}" z="Gmy7gVdN/oYKuJi0X2njhMCEf4w="/>
     </page:show>
 </div>

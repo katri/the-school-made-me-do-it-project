@@ -9,5 +9,12 @@
         <field:input field="sugu" id="c_ee_itcollege_i377_team29_entities_Piirivalvur_sugu" required="true" z="mkMv7DRI2ejpyljhX7+gazQpRLU="/>
         <field:input field="soduri_kood" id="c_ee_itcollege_i377_team29_entities_Piirivalvur_soduri_kood" required="true" z="4j6mXpJB4tFX1C3ZrnB9umztk3g="/>
         <field:simple field="vahtkonna_liige" id="c_ee_itcollege_i377_team29_entities_Piirivalvur_vahtkonna_liige" messageCode="entity_reference_not_managed" messageCodeAttribute="Vahtkonna_liige" z="GAR5vUEZw4NDgNMIlC3xVVs6q9I="/>
+        <field:textarea field="kommentaar" id="c_ee_itcollege_i377_team29_entities_Piirivalvur_kommentaar" z="3SznMi0eJhqCoOHw8KUoHzhsksE="/>
+        <field:textarea field="avaja" id="c_ee_itcollege_i377_team29_entities_Piirivalvur_avaja" required="true" z="4x0tUVwoe8DO3jo1sdnxt5myKGk="/>
+        <field:datetime dateTimePattern="${piirivalvur_avatud_date_format}" field="avatud" id="c_ee_itcollege_i377_team29_entities_Piirivalvur_avatud" required="true" z="RcUZRh79TnStV6ehRINAKGcIyes="/>
+        <field:textarea field="sulgeja" id="c_ee_itcollege_i377_team29_entities_Piirivalvur_sulgeja" z="h0Wx5shVEDmLKPXbj1vdvcJj5SE="/>
+        <field:datetime dateTimePattern="${piirivalvur_suletud_date_format}" field="suletud" id="c_ee_itcollege_i377_team29_entities_Piirivalvur_suletud" required="true" z="5ld5Sl1Poa0bes0wtCO/Z/tcKkU="/>
+        <field:textarea field="muutja" id="c_ee_itcollege_i377_team29_entities_Piirivalvur_muutja" required="true" z="4s/aMZ87bY86IPBiiNG1xmRZli0="/>
+        <field:datetime dateTimePattern="${piirivalvur_muudetud_date_format}" field="muudetud" id="c_ee_itcollege_i377_team29_entities_Piirivalvur_muudetud" required="true" z="+ZndfTkba6mLFmJUSN4YsIpljfI="/>
     </form:update>
 </div>

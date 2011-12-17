@@ -9,5 +9,12 @@
         <field:select field="intsident" id="c_ee_itcollege_i377_team29_entities_Vahtkond_intsidendis_intsident" itemValue="intsident_ID" items="${intsidents}" path="/intsidents" required="true" z="ifdrV/MgdPtFZ2R124C9t8EApG4="/>
         <field:select field="vahtkond" id="c_ee_itcollege_i377_team29_entities_Vahtkond_intsidendis_vahtkond" itemValue="vahtkond_ID" items="${vahtkonds}" path="/vahtkonds" required="true" z="IDrvItnxdb9IJ8fmHIRnMwv1jiQ="/>
         <field:simple field="piirivalvurid_intsidendis" id="c_ee_itcollege_i377_team29_entities_Vahtkond_intsidendis_piirivalvurid_intsidendis" messageCode="entity_reference_not_managed" messageCodeAttribute="Piirivalvur_intsidendis" z="n6ouIMLDWqbFOcg0y/zpxVYhOhA="/>
+        <field:textarea field="kommentaar" id="c_ee_itcollege_i377_team29_entities_Vahtkond_intsidendis_kommentaar" z="rMztitqz/WkYAT9SrE/o0NvVCjI="/>
+        <field:textarea field="avaja" id="c_ee_itcollege_i377_team29_entities_Vahtkond_intsidendis_avaja" required="true" z="xWThNr7yQmjxpZEjCLPAo/o2Oa4="/>
+        <field:datetime dateTimePattern="${vahtkond_intsidendis_avatud_date_format}" field="avatud" id="c_ee_itcollege_i377_team29_entities_Vahtkond_intsidendis_avatud" required="true" z="u48ANRmqBTN0GdUL1LVGRn5ivBs="/>
+        <field:textarea field="sulgeja" id="c_ee_itcollege_i377_team29_entities_Vahtkond_intsidendis_sulgeja" z="Lv+VezeKzaEheQohcGDrQyvL0NI="/>
+        <field:datetime dateTimePattern="${vahtkond_intsidendis_suletud_date_format}" field="suletud" id="c_ee_itcollege_i377_team29_entities_Vahtkond_intsidendis_suletud" required="true" z="iMgOclCbKk9PJqmFxFz9WKUnuB8="/>
+        <field:textarea field="muutja" id="c_ee_itcollege_i377_team29_entities_Vahtkond_intsidendis_muutja" required="true" z="o4XtGUCuy2iYZp3l5LKME3r8K94="/>
+        <field:datetime dateTimePattern="${vahtkond_intsidendis_muudetud_date_format}" field="muudetud" id="c_ee_itcollege_i377_team29_entities_Vahtkond_intsidendis_muudetud" required="true" z="Q9fn5t9MFpUtIfQ+qdKRH7XBl7s="/>
     </form:update>
 </div>

@@ -10,5 +10,12 @@
         <field:select field="piirivalvur" id="c_ee_itcollege_i377_team29_entities_Piirivalvur_intsidendis_piirivalvur" itemValue="piirivalvur_ID" items="${piirivalvurs}" path="/piirivalvurs" required="true" z="cKohlrY9h6Liu7EjifLP6PMGpiI="/>
         <field:select field="vahtkond_intsidendis" id="c_ee_itcollege_i377_team29_entities_Piirivalvur_intsidendis_vahtkond_intsidendis" itemValue="piirivalvur_intsidendis_ID" items="${vahtkond_intsidendises}" path="/vahtkond_intsidendises" z="fBjjaSa1vZz+mXIH0FXBUqu/Axs="/>
         <field:simple field="piirivalvuri_seadus_intsidendi" id="c_ee_itcollege_i377_team29_entities_Piirivalvur_intsidendis_piirivalvuri_seadus_intsidendi" messageCode="entity_reference_not_managed" messageCodeAttribute="Piirivalvuri_seadus_intsidendi" z="y405vNjDKytfrK9BLyfGtPGZlak="/>
+        <field:textarea field="kommentaar" id="c_ee_itcollege_i377_team29_entities_Piirivalvur_intsidendis_kommentaar" z="48D5ebXOKNJUoH5h0uUENT2i39s="/>
+        <field:textarea field="avaja" id="c_ee_itcollege_i377_team29_entities_Piirivalvur_intsidendis_avaja" required="true" z="gxU9CWv9NKqY6eRCkZ+VqSlMkRo="/>
+        <field:datetime dateTimePattern="${piirivalvur_intsidendis_avatud_date_format}" field="avatud" id="c_ee_itcollege_i377_team29_entities_Piirivalvur_intsidendis_avatud" required="true" z="77yIfdjUXwWBoe0sdbRUxIXu6Tw="/>
+        <field:textarea field="sulgeja" id="c_ee_itcollege_i377_team29_entities_Piirivalvur_intsidendis_sulgeja" z="Psby43tMPLFLn32WrssQ2iFYaw4="/>
+        <field:datetime dateTimePattern="${piirivalvur_intsidendis_suletud_date_format}" field="suletud" id="c_ee_itcollege_i377_team29_entities_Piirivalvur_intsidendis_suletud" required="true" z="MaIj0mV6zIsr4K/6yzL4B20dsH0="/>
+        <field:textarea field="muutja" id="c_ee_itcollege_i377_team29_entities_Piirivalvur_intsidendis_muutja" required="true" z="liWZsPHeDimWEqvmfVTX8AfrFKo="/>
+        <field:datetime dateTimePattern="${piirivalvur_intsidendis_muudetud_date_format}" field="muudetud" id="c_ee_itcollege_i377_team29_entities_Piirivalvur_intsidendis_muudetud" required="true" z="9UFnVyRYou4srOP1ofsqQIW+U0g="/>
     </form:update>
 </div>

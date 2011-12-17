@@ -8,5 +8,12 @@
         <field:input field="kehtiv_alates" id="c_ee_itcollege_i377_team29_entities_Seadus_kehtiv_alates" required="true" z="yM6RiXKw5Qk3aDd+sngeys5bJOs="/>
         <field:input field="kehtiv_kuni" id="c_ee_itcollege_i377_team29_entities_Seadus_kehtiv_kuni" required="true" z="sWv29YWAjaSHCrVHm4GFWCNXp40="/>
         <field:simple field="seaduse_punkt" id="c_ee_itcollege_i377_team29_entities_Seadus_seaduse_punkt" messageCode="entity_reference_not_managed" messageCodeAttribute="Seaduse_punkt" z="+h10yVyTz5dGfO9qHEZNMEIW6kA="/>
+        <field:textarea field="kommentaar" id="c_ee_itcollege_i377_team29_entities_Seadus_kommentaar" z="BwYyU3fMdMgZ7BM3t99sUQhZsuU="/>
+        <field:textarea field="avaja" id="c_ee_itcollege_i377_team29_entities_Seadus_avaja" required="true" z="fuaK2EKoehw0KDLYA2CfSUIfEVY="/>
+        <field:datetime dateTimePattern="${seadus_avatud_date_format}" field="avatud" id="c_ee_itcollege_i377_team29_entities_Seadus_avatud" required="true" z="baDxptQBGawkceyYWrfvtl5ovEs="/>
+        <field:textarea field="sulgeja" id="c_ee_itcollege_i377_team29_entities_Seadus_sulgeja" z="W/zgodwnwqXj1zztVc/7x4NgMAI="/>
+        <field:datetime dateTimePattern="${seadus_suletud_date_format}" field="suletud" id="c_ee_itcollege_i377_team29_entities_Seadus_suletud" required="true" z="tYlEXz3We+YMhrUjl7JtHlp97nM="/>
+        <field:textarea field="muutja" id="c_ee_itcollege_i377_team29_entities_Seadus_muutja" required="true" z="8Weskw4KdahC0CwiC0MHgjdqM9k="/>
+        <field:datetime dateTimePattern="${seadus_muudetud_date_format}" field="muudetud" id="c_ee_itcollege_i377_team29_entities_Seadus_muudetud" required="true" z="StrG3RXhA5VlotzUBmtkkzk3UVM="/>
     </form:update>
 </div>

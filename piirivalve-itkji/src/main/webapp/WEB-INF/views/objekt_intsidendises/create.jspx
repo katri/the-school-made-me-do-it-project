@@ -8,6 +8,13 @@
         <field:input field="kirjeldus" id="c_ee_itcollege_i377_team29_entities_Objekt_intsidendis_kirjeldus" z="IEYwLB8DT+mj53QCf8fFZWqxPlA="/>
         <field:select field="intsident" id="c_ee_itcollege_i377_team29_entities_Objekt_intsidendis_intsident" itemValue="intsident_ID" items="${intsidents}" path="/intsidents" required="true" z="jALFkLHzU8lZIvPh5MvBM68FZio="/>
         <field:select field="objekt" id="c_ee_itcollege_i377_team29_entities_Objekt_intsidendis_objekt" itemValue="objekt_ID" items="${objekts}" path="/objekts" required="true" z="DaiAiywxtjads1GwEkLEL+e96ac="/>
+        <field:textarea field="kommentaar" id="c_ee_itcollege_i377_team29_entities_Objekt_intsidendis_kommentaar" z="et0iQA845H36nzeBWF8mRY2K1GE="/>
+        <field:textarea field="avaja" id="c_ee_itcollege_i377_team29_entities_Objekt_intsidendis_avaja" required="true" z="jfXc0S0wAqY26hwwVq8g+iUL3Os="/>
+        <field:datetime dateTimePattern="${objekt_intsidendis_avatud_date_format}" field="avatud" id="c_ee_itcollege_i377_team29_entities_Objekt_intsidendis_avatud" required="true" z="soazis3CrqVse6logb5Y+Az84Ew="/>
+        <field:textarea field="sulgeja" id="c_ee_itcollege_i377_team29_entities_Objekt_intsidendis_sulgeja" z="zu8devPpifH2zDtUwLXstlehxa4="/>
+        <field:datetime dateTimePattern="${objekt_intsidendis_suletud_date_format}" field="suletud" id="c_ee_itcollege_i377_team29_entities_Objekt_intsidendis_suletud" required="true" z="q7xklslTCcIgW4sKswQtcHRbYsE="/>
+        <field:textarea field="muutja" id="c_ee_itcollege_i377_team29_entities_Objekt_intsidendis_muutja" required="true" z="gK1w9XpstszOCJk+WnLHxPswobU="/>
+        <field:datetime dateTimePattern="${objekt_intsidendis_muudetud_date_format}" field="muudetud" id="c_ee_itcollege_i377_team29_entities_Objekt_intsidendis_muudetud" required="true" z="yiyZw++kvfrjp3crJq04j1BlzO0="/>
     </form:create>
     <form:dependency dependencies="${dependencies}" id="d_ee_itcollege_i377_team29_entities_Objekt_intsidendis" render="${not empty dependencies}" z="EKckVyB29CYmSycUiGr/HX7Z/Bw="/>
 </div>
